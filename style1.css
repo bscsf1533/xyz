@@ -1,0 +1,60 @@
+body 
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-color:#3498DB  ;
+	background-size: cover;
+	
+
+
+} 
+.container
+{
+		position: absolute;
+		top: 60%;
+		left:50%;
+		center:50%;
+		transform: translate(-50%, -50%);
+		width: 600px;
+		padding: 30px;
+		background: 3fff;
+		box-sizing: border-bottom;
+		border-radius: 30px;
+		box-shadow: 0 15px 50px rgba(0,0,0,2);
+
+
+} 
+.circle
+{
+	left: 0px;
+	width: 200px;
+	height: 200px;
+	background: url(roman.jpg);
+	border-radius: 60px;
+	float: left;
+	Shape-outside: circle();
+	margin: 60px 30px 30px 30px;
+	
+}	
+
+
+
+
+
+
+
+p
+{	
+	margin : 0 ;
+	padding: 0;
+	text-align : justify;
+	line-height: 22px;
+	
+}
+ h1
+ {
+	 margin: 0 0 20px;
+	 padding: 0;
+	 font-size: 30px;
+ }
